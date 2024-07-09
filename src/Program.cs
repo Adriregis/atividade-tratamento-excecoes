@@ -1,4 +1,11 @@
-﻿namespace ConsoleApp1
+ isabella
+namespace ConsoleApp1
+
+
+using System;
+
+namespace ConsoleApp1
+main
 {
     internal class Program
     {
@@ -9,12 +16,21 @@
             int quant = int.Parse(Console.ReadLine());
             int[] vetor = new int[quant];
 
+isabella
             try
             {
                 for (int i = 0; i >= 0; i++)
                 {
                     Console.WriteLine($"Digite o {i + 1}º número: ");
                     int n1 = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < vetor.Length; i++)
+            {
+                Console.WriteLine($"Digite o {i + 1}º número: ");
+                int n1 = int.Parse(Console.ReadLine());
+                vetor[i] = n1;
+            }
+ main
 
                     if (i < quant)
                     {
